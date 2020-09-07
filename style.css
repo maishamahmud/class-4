@@ -1,0 +1,405 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Global css file here */
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	    font-family: 'Quicksand', sans-serif;
+}
+p, input, span, button{
+	font-family: 'Roboto', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/*header part css here*/
+.header{
+	width: 100%;
+	
+}
+.logo{
+	margin: 20px;
+
+}
+
+.logo img{
+	vertical-align: middle;
+}
+.logo span{
+	font-size: 26px;
+	margin-left: 10px;
+	font-weight: 700;
+	vertical-align: middle;
+}
+/*banner selection code css*/
+.banner{
+	width: 100%;
+	display: flow-root;
+	margin-bottom: 70px;
+
+}
+.banner-info{
+	width: 100%;
+	float: left;
+
+}
+.banner-left{
+	width: 60%;
+	float: left;
+
+}
+.banner-right{
+	width: 40%;
+	float: right;
+
+}
+.left-content{
+	padding: 60px 83px 60px 16px;
+}
+.left-content h1{
+	font-size: 44px;
+
+}
+.left-content p{
+	color: #4c527d;
+	font-size: 22px;
+	margin: 24px 0;
+
+}
+.banner-button{
+	margin: 25px 0;
+}
+.left-content .banner-button button{
+	padding: 20px 40px;
+	border-radius: 32px;
+	outline: none;
+	border: none;
+	border: 2px solid #ed6524;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+.left-content .banner-button .left-btn{
+	background: #ed6524;
+	color: white;
+
+}
+.left-content .banner-button .left-btn:hover{
+	background: white ;
+	color: #ed6524;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+.left-content .banner-button .right-btn{
+	background: transparent;
+	color: #ed6524;
+	margin-left: 20px;
+
+}
+.left-content .banner-button .right-btn:hover{
+	background: #ed6524;
+	color: white;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+.comment{
+	margin: 50px 50px 0 0;
+}
+.comment-box{
+	width: 100%;
+	background: #f6f8fc;
+	padding: 20px 30px;
+	border-left: 4px solid #ed6524;
+	position: relative;
+}
+.comment-box p{
+	font-size: 18px;
+	font-style: italic;
+}
+.box-icon{
+	width: 40px;
+	height: 40px;
+	background: #f6f8fc;
+	position: absolute;
+	bottom: -20px;
+	left: 50px;
+	transform: rotate(45deg);
+}
+.comment-user{
+	width: 100%;
+	float: left;
+	margin: 40px 0 0 20px;
+
+}
+.user-left{
+	width: 10%;
+	float: left;
+}
+.user-right{
+	width: 90%;
+	float: right;
+}
+.user-dec{
+	padding: 15px 0;
+}
+.user-right .user-dec p{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 30px;
+
+}
+.right-content{
+	position: relative;
+}
+.book-su{
+	width: 120px;
+	height: 120px;
+	background: #5cb377;
+	border-radius: 50%;
+	position: absolute;
+	top: -30px;
+	right: 0;
+}
+.book-su h3{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.book-link{
+	text-align: center;
+}
+.book-link a{
+	text-decoration: underline;
+	font-size: 18px;
+	color: #ed6524
+}
+/*service section css*/
+.service{
+	width: 100%;
+	display: flow-root;
+	background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+	background-repeat: repeat-x;
+	padding: 90px 0;
+
+}
+.service-title{
+	text-align: center;
+}
+
+.service-title h1{
+	font-size: 44px;
+	margin-bottom: 20px;
+}
+.service-title p{
+	font-size: 22px;
+	color: #4c527d;
+}
+.service-gallery{
+	margin-top: 80px;
+	width: 100%;
+	float: left;
+
+}
+.item{
+	width: 33%;
+	float: left;
+
+}
+.item-des{
+	text-align: center;
+	padding: 42px;
+
+}
+.item-des i{
+	font-size: 36px;
+	color: #ed6524
+}
+.item-des h3{
+	margin: 15px 0;
+}
+/*included section css*/
+.included{
+	width: 100%;
+	display: flow-root;
+	padding: 70px 0;
+	text-align: center;
+}
+.included-title h1{
+	font-size: 44px;
+	margin-bottom: 20px;
+}
+.included-detail{
+	width: 100%;
+	float: left;
+}
+.included-left{
+	width: 50%;
+	float: left;
+}
+.included-img{
+	padding: 80px;
+}
+.list{
+	padding: 100px 40px;
+}
+.included-right{
+	width: 50%;
+	float: left;
+}
+.included-right ul li{
+	line-height: 35px;
+	font-size: 18px;
+}
+
+.included-right i{
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #7FCDB8;
+	border-radius: 100%;
+	color: white;
+	margin-right: 20px;
+	font-size: 16px;
+}
+.list .button{
+	margin: 30px 0;
+}
+.list button{
+	padding: 20px 40px;
+	border-radius: 32px;
+	outline: none;
+	border: none;
+	border: 2px solid #ed6524;
+	font-size: 18px;
+	font-weight: 600;
+	background: #ed6524;
+	color: white;
+
+}
+.easy-title h1{
+	width: 100%;
+	display: flow-root;
+	padding: 70px 0;
+	text-align: center;
+}
+.list-see{
+	padding: 100px 40px;
+}
+.easy-list{
+	width: 100%;
+	float: left;
+}
+	
+
+.easy-list ul li{
+	line-height: 35px;
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+}
+.easy-list i{
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	background: #7FCDB8;
+	border-radius: 100%;
+	color: white;
+	margin-right: 20px;
+	font-size: 16px;
+	text-align: center;
+}
+.review{
+	width: 100%;
+	display: flow-root;
+	background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+	background-repeat: repeat-x;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+.review-comment h1{
+	font-size: 44px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.review-comment p{
+	font-size: 22px;
+	color: #4c527d;
+	text-align: center;
+
+}
+.email-is{
+	background: rgba(0,0,0,0.5);
+	margin: 0 200px;
+	text-align: center;
+}
+.email-is input{
+	display: block;
+	width: 80%;
+	padding: 15px 20px;
+	margin: 50px 0;
+
+}
+.b-r h1{
+	font-size: 44px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.b-r p{
+	font-size: 22px;
+	color: #4c527d;
+	text-align: center;
+
+}
+.comment-out{
+	margin: 50px 50px 0 0;
+}
+.comment-in{
+	width: 100%;
+	background: #f6f8fc;
+	padding: 20px 30px;
+	border-left: 4px solid #ed6524;
+	position: relative;
+}
+.comment-in p{
+	font-size: 18px;
+	font-style: italic;
+}
+
+.comment-on{
+	width: 100%;
+	float: left;
+	margin: 40px 0 0 20px;
+
+}
+.ucc-r{
+	width: 10%;
+	float: left;
+}
+.ucc-s{
+	width: 90%;
+	float: right;
+}
+
+.ucc-s p{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 30px;
+
+}
